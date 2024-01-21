@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>2048</title>
+
+  <link href="themes/skdigital.css" rel="stylesheet" type="text/css" class="main">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
+   <script defer src="themes.js"></script>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+  <audio id="bg-music" loop>
+</audio>
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">2048</h1>
+    <div class="main">
+      <button onclick="window.location.href='index.html';">Singleplayer</button>
+      <button onclick="window.location.href='multiplayer.html';">Multiplayer</button>
+      <button onclick="window.location.href='themes.html';">Themes</button>
+      <button onclick="window.location.href='leaderboard.html';">Leaderboard (WIP)</button>
+      <button>Music: <input type="range" min="0" max="1" step="0.1" value="0.5" id="volume-slider"></button>
+    </div>
+    <div class="info">
+                <p class="game-explanation">
+      <strong class="important">How to play:</strong> Use your <strong>arrow keys or swipe on phone</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong>
+    </p>
+      <p>Modified and provided by the SK Digital Portal:</p>
+      <button onclick="window.location.href='https://skdigitalportal.xyz/';">SK Digital</button>
+          <p>
+    Created by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a> Based on <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> and conceptually similar to <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a> Multiplayer Version forked from<a href="https://replit.com/@MikeShi42" target="_blank"> @MikeShi42</a> on replit.
+    </p>
+    </div>
+  </div>
+</body>
+</html>

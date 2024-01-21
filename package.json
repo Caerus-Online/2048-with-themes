@@ -1,0 +1,16 @@
+{
+  "name": "app",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "latest",
+    "express": "latest",
+    "mongodb": "^5.5.0",
+    "socket.io": "2.1.1",
+    "sqlite3": "latest"
+  }
+}
